@@ -2,6 +2,7 @@ body,
 html,
 #root {
   height: 100%;
+  background-color: #0D0D0D;
 }
 
 html {
@@ -39,7 +40,7 @@ h2 {
 }
 
 .App {
-  height: 100%;
+  height: auto;
   padding: 0 10% 8% 10%;
   background-image: url('./Img/background_photo_desktop.jpg');
   background-size: cover;
