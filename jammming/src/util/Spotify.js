@@ -1,5 +1,5 @@
 const clientId = '5fa02b06d3974322a8e59195c5a2f653';
-const redirectURI = 'freezing-side.surge.sh';
+const redirectURI = 'http://freezing-side.surge.sh';
 let Token = '';
 let urlAccessToken = window.location.href.match(/access_token=([^&]*)/);
 let urlExpiresIn = window.location.href.match(/expires_in=([^&]*)/);
